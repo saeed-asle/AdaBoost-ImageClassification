@@ -10,8 +10,8 @@ from keras.utils import to_categorical
 #Data link : https://www.kaggle.com/puneet6060/intel-image-classification
 
 # Define file paths
-trainpath = '/Users/Saeed/Desktop/deap learing and mchine learning/all_about_machine_and_deep_learning/seg_train/'
-testpath = '/Users/Saeed/Desktop/deap learing and mchine learning/all_about_machine_and_deep_learning/seg_test/'
+trainpath = 'filePath/seg_train/'
+testpath = 'filePath/seg_test/'
 
 # Class labels
 code = {'buildings': 0, 'forest': 1, 'glacier': 2, 'mountain': 3, 'sea': 4, 'street': 5}
